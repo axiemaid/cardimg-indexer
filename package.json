@@ -1,0 +1,12 @@
+{
+  "name": "cardimg-indexer",
+  "version": "1.0.0",
+  "description": "CARDIMG protocol indexer — scans BSV blockchain for card image transactions",
+  "main": "lib/indexer.js",
+  "scripts": {
+    "start": "node scripts/index.cjs"
+  },
+  "dependencies": {
+    "@gorillapool/js-junglebus": "^0.4.4"
+  }
+}
